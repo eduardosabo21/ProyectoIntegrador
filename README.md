@@ -21,6 +21,7 @@ Editar
 │── 📜 README.md          # Documentación del proyecto
 │── 📜 requirements.txt   # Librerías necesarias para la ejecución del código
 │── 📜 architecture.md    # Especificación detallada de la arquitectura del sistema
+```
 
 ## Metodología Utilizada
 El desarrollo del prototipo sigue la metodología CRISP-ML(Q), que permite estructurar el proceso de machine learning en fases iterativas:
@@ -37,7 +38,8 @@ Entorno de Desarrollo: Google Colab
 Librerías Principales: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 Enfoque de Machine Learning: Modelos de recomendación basados en aprendizaje supervisado y ranking
 Gestión de Versionamiento: GitHub
-#Instalación y Ejecución
+
+## Instalación y Ejecución
 Para utilizar este proyecto en local o en Google Colab, siga estos pasos:
 
 Clonar el repositorio
@@ -48,7 +50,7 @@ Editar
 git clone https://github.com/eduardosabo21/AI-Travel-Agent.git
 cd AI-Travel-Agent
 Instalar las dependencias
-
+```
 ```bash
 Copiar
 Editar
@@ -61,6 +63,7 @@ Generación de recomendaciones de vuelos y alojamientos optimizados.
 Filtrado de opciones con base en preferencias del usuario.
 Implementación inicial en un entorno de pruebas con datasets preprocesados.
 Posibilidad de escalabilidad mediante integración con APIs de reservas.
+```
 Consideraciones y Limitaciones
 
 *Fase Piloto: Actualmente, el sistema no está conectado a APIs en vivo. Se utilizan datasets estáticos para entrenar y probar los modelos.
